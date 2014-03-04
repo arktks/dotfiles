@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<root>
+	<list>
+        <item>
+            <name>変態キーバインド</name>
+            <identifier>option.hentai.key.bind</identifier>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::J, 
+                ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+                KeyCode::CURSOR_LEFT
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::K, 
+                ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+                KeyCode::CURSOR_DOWN
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::L, 
+                ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+                KeyCode::CURSOR_RIGHT
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::I, 
+                ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+                KeyCode::CURSOR_UP
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::H, 
+                ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+                KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L 
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::SEMICOLON, 
+                ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+                KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L 
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::U, 
+                ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+                KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::O, 
+                ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+                KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::JIS_EISUU, 
+                ModifierFlag::NONE,
+                KeyCode::DELETE
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::JIS_KANA, 
+                ModifierFlag::NONE,
+                KeyCode::FORWARD_DELETE
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::JIS_EISUU, 
+                ModifierFlag::COMMAND_L,
+                KeyCode::DELETE, ModifierFlag::OPTION_L 
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::JIS_KANA, 
+                ModifierFlag::COMMAND_L,
+                KeyCode::FORWARD_DELETE, ModifierFlag::OPTION_L 
+            </autogen>
+            <autogen>
+                --DoublePressModifier-- 
+                KeyCode::SHIFT_L, KeyCode::SHIFT_L, 
+                KeyCode::ESCAPE
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::SEMICOLON,
+                ModifierFlag::NONE,
+                KeyCode::RETURN
+            </autogen>
+            <autogen>
+                --KeyToKey-- 
+                KeyCode::SEMICOLON,
+                ModifierFlag::COMMAND_L,
+                KeyCode::SEMICOLON
+            </autogen>
+        </item>
+    </list>
+</root>
