@@ -9,6 +9,7 @@ Command Line Toolsのインストール -> Homebrewのインストール
 ```
 $ xcode-select --install
 $ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
+```
 
 ## Brew buldleして色々インストール
 
