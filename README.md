@@ -2,6 +2,7 @@
 
 ## Xcodeのインストール
 App Storeからインストール
+http://qiita.com/3yatsu/items/47470091277d46f3fde2
 
 ## Homebrewのインストール
 Command Line Toolsのインストール -> Homebrewのインストール
