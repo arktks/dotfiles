@@ -1,5 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
-plugins=(brew git git-flow github history history-substring-search yum)
+plugins=(brew git github history history-substring-search last-working-dir mvn yum)
 source $ZSH/oh-my-zsh.sh
 
 source $HOME/.zshrc.extra
