@@ -15,12 +15,12 @@ $ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 ## Brew buldleして色々インストール
 
 ```
+$ cd && git clone https://github.com/arktks/dotfiles
 $ cd dotfiles && brew bundle
 ```
 
 ## dotfilesの展開
 ```
-$ cd && git clone https://github.com/arktks/dotfiles
 $ cd dotfiles && chmod +x setup.sh && ./setup.sh
 ```
 
