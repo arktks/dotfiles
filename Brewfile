@@ -1,7 +1,7 @@
 # Update Homebrew
 update
 
-# Update already-installed formula (takes too much time, I will do it manually later)
+# Update already-installed formula
 # upgrade
 
 # Add Repository
