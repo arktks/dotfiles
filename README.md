@@ -14,7 +14,9 @@ $ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 
 ## Brew buldleして色々インストール
 
-TODO
+```
+$ cd dotfiles && brew bundle
+```
 
 ## dotfilesの展開
 ```
