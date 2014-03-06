@@ -40,6 +40,7 @@ install brew-cask
 # .dmg
 #==================
 cask install alfred
+cask alfred link # caskでインストールしたアプリも検索対象に
 cask install adium
 cask install appcleaner
 cask install bettertouchtool
