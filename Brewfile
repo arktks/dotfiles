@@ -27,6 +27,11 @@ install jq # https://github.com/stedolan/jq
 install scala
 install sbt
 install atool
+install fontforge
+
+# powerline用フォントを作成する
+tap sanemat/font
+install --powerline --vim-powerline ricty
 
 # for brew-cask
 install brew-cask
