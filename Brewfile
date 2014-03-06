@@ -26,6 +26,7 @@ install curl
 install jq # https://github.com/stedolan/jq
 install scala
 install sbt
+install atool
 
 # for brew-cask
 install brew-cask
