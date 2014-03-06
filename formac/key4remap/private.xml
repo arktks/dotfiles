@@ -108,6 +108,7 @@
                 ModifierFlag::COMMAND_L,
                 KeyCode::SEMICOLON
             </autogen>
+	    <appendix>SPACEだけ押下時はSPACE、SPACEと他のキーを入力時はCONTROL</appendix>
 	    <autogen>
 	    	__KeyOverlaidModifier__ 
 	    	KeyCode::SPACE, 
