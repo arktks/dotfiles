@@ -1,4 +1,5 @@
 # 基本的にoh-my-zshのlib/で色々設定されてるので、同じものは設定しないこと
+# https://github.com/robbyrussell/oh-my-zsh/tree/master/lib
 
 ## Environment variable configuration
 #
@@ -83,8 +84,8 @@ alias ex='extract'
 # mysql
 alias mysql="mysql --pager='less -S -n -i -F -X'"
 
-# autojump
-alias j="autojump"
-if [ -f `brew --prefix`/etc/autojump ]; then
-  . `brew --prefix`/etc/autojump
+# z
+if which brew > /dev/null; then
+    _Z_CMD=j
+    source $(brew --prefix)/etc/profile.d/z.sh
 fi

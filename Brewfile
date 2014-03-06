@@ -27,6 +27,7 @@ install jq # https://github.com/stedolan/jq
 install scala
 install sbt
 install atool
+install z
 install fontforge
 
 # powerline用フォントを作成する
