@@ -1,5 +1,3 @@
-alias mysql="mysql --pager='less -S -n -i -F -X'"
-
 # 基本的にoh-my-zshのlib/で色々設定されてるので、同じものは設定しないこと
 
 ## Environment variable configuration
@@ -81,3 +79,12 @@ alias tml='tmux list-sessions'
 
 # extract 
 alias ex='extract'
+
+# mysql
+alias mysql="mysql --pager='less -S -n -i -F -X'"
+
+# autojump
+alias j="autojump"
+if [ -f `brew --prefix`/etc/autojump ]; then
+  . `brew --prefix`/etc/autojump
+fi
