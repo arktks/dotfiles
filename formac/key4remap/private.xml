@@ -1,98 +1,119 @@
 <?xml version="1.0"?>
 <root>
-	<list>
+    <list>
         <item>
             <name>変態キーバインド</name>
             <identifier>option.hentai.key.bind</identifier>
+            <appendix>Command_L + SHIFT_L + J = LEFT</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::J, 
                 ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
                 KeyCode::CURSOR_LEFT
             </autogen>
+            <appendix>Command_L + SHIFT_L + K = DOWN</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::K, 
                 ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
                 KeyCode::CURSOR_DOWN
             </autogen>
+            <appendix>Command_L + SHIFT_L + L = RIGHT</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::L, 
                 ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
                 KeyCode::CURSOR_RIGHT
             </autogen>
+            <appendix>Command_L + SHIFT_L + I = UP</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::I, 
                 ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
                 KeyCode::CURSOR_UP
             </autogen>
+            <appendix>Command_L + SHIFT_L + H = １単語左へ</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::H, 
                 ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
                 KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L 
             </autogen>
+            <appendix>Command_L + SHIFT_L + ; = １単語右へ</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::SEMICOLON, 
                 ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
                 KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L 
             </autogen>
+            <appendix>Command_L + SHIFT_L + U = カーソル左の１単語選択</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::U, 
                 ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
                 KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L
             </autogen>
+            <appendix>Command_L + SHIFT_L + O = カーソル右の１単語選択</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::O, 
                 ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
                 KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L
             </autogen>
+            <appendix>英数 = DELETE</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::JIS_EISUU, 
                 ModifierFlag::NONE,
                 KeyCode::DELETE
             </autogen>
+            <appendix>かな = BackSpace</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::JIS_KANA, 
                 ModifierFlag::NONE,
                 KeyCode::FORWARD_DELETE
             </autogen>
+            <appendix>Command_L + 英数 = カーソル左の１単語削除</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::JIS_EISUU, 
                 ModifierFlag::COMMAND_L,
                 KeyCode::DELETE, ModifierFlag::OPTION_L 
             </autogen>
+            <appendix>Command_L + かな = カーソル右の１単語削除</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::JIS_KANA, 
                 ModifierFlag::COMMAND_L,
                 KeyCode::FORWARD_DELETE, ModifierFlag::OPTION_L 
             </autogen>
+            <appendix>SHIFT_L２度押し = ESC</appendix>
             <autogen>
                 --DoublePressModifier-- 
                 KeyCode::SHIFT_L, KeyCode::SHIFT_L, 
                 KeyCode::ESCAPE
             </autogen>
+            <appendix>; = ENTER</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::SEMICOLON,
                 ModifierFlag::NONE,
                 KeyCode::RETURN
             </autogen>
+            <appendix>Command_L + ; = ;</appendix>
             <autogen>
                 --KeyToKey-- 
                 KeyCode::SEMICOLON,
                 ModifierFlag::COMMAND_L,
                 KeyCode::SEMICOLON
             </autogen>
+	    <autogen>
+	    	__KeyOverlaidModifier__ 
+	    	KeyCode::SPACE, 
+	    	KeyCode::CONTROL_L, 
+	    	KeyCode::SPACE
+	    </autogen>
         </item>
     </list>
 </root>
