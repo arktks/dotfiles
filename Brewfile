@@ -25,6 +25,7 @@ install wget
 install curl
 install jq # https://github.com/stedolan/jq
 install scala
+install gradle
 install sbt
 install atool
 install z
@@ -43,7 +44,6 @@ install brew-cask
 cask install alfred
 cask alfred link # caskでインストールしたアプリも検索対象に
 cask install adium
-cask install airmail
 cask install appcleaner
 cask install bettertouchtool
 cask install cheatsheet
@@ -54,6 +54,7 @@ cask install iterm2
 cask install keyremap4macbook
 cask install kobito
 cask install mplayerx
+cast install opera-mail
 cask install simple-comic
 cask install skitch
 cask install sourcetree
