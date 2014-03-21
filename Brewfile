@@ -54,6 +54,8 @@ cask install bettertouchtool
 cask install cheatsheet
 cask install github
 cask install google-chrome
+cask install google-japanese-ime
+cask install google-drive
 # cask install intellij-idea-community
 cask install iterm2
 cask install keyremap4macbook
