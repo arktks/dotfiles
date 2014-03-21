@@ -66,6 +66,7 @@ cask install simple-comic
 cask install skitch
 cask install sourcetree
 cask install sublime-text
+cask install sequel-pro
 cask install the-unarchiver
 cask install xtrafinder
 
