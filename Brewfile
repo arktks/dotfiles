@@ -16,14 +16,18 @@ install zsh
 install tmux
 install vim
 install git
-install gist # https://github.com/defunkt/gist/
-install gibo # https://github.com/simonwhitaker/gibo
-install hub # https://github.com/github/hub
+# https://github.com/defunkt/gist/
+install gist 
+# https://github.com/simonwhitaker/gibo
+install gibo
+# https://github.com/github/hub
+install hub
 install tig
 install tree
 install wget
 install curl
-install jq # https://github.com/stedolan/jq
+# https://github.com/stedolan/jq
+install jq
 install scala
 install gradle
 install sbt
@@ -42,24 +46,25 @@ install brew-cask
 # .dmg
 #==================
 cask install alfred
-cask alfred link # caskでインストールしたアプリも検索対象に
+# caskでインストールしたアプリも検索対象に
+cask alfred link
 cask install adium
 cask install appcleaner
 cask install bettertouchtool
 cask install cheatsheet
 cask install github
 cask install google-chrome
-cask install intellij-idea-community
+# cask install intellij-idea-community
 cask install iterm2
 cask install keyremap4macbook
 cask install kobito
 cask install mplayerx
-cast install opera-mail
+cask install opera-mail
 cask install simple-comic
 cask install skitch
 cask install sourcetree
-cask install sublime-text3
-cask install the unarchiver
+cask install sublime-text
+cask install the-unarchiver
 cask install xtrafinder
 
 # Remove outdated versions
