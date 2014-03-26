@@ -82,7 +82,7 @@ alias tml='tmux list-sessions'
 alias ex='extract'
 
 # mysql
-alias mysql="mysql --pager='less -S -n -i -F -X'"
+alias mysql="mysql --auto-rehash --pager='less -S -n -i -F -X'"
 
 # z
 if which brew > /dev/null; then
