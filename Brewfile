@@ -52,6 +52,7 @@ cask install adium
 cask install appcleaner
 cask install bettertouchtool
 cask install cheatsheet
+cask install cornerstone
 cask install flux
 cask install github
 cask install google-chrome
