@@ -15,6 +15,3 @@ done
 # rictyのインストール
 cp -f /usr/local/Cellar/ricty/3.2.2/share/fonts/Ricty*.ttf ~/Library/Fonts/
 fc-cache -vf
-
-# keyremapのprivate.xmlにシンボリックリンク貼る
-ln -sf ~/dotfiles/formac/key4remap/private.xml ~/Library/Application\ Support/KeyRemap4MacBook/private.xml

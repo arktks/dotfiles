@@ -34,6 +34,7 @@ install sbt
 install atool
 install z
 install fontforge
+install peco
 
 # powerline用フォントを作成する
 tap sanemat/font
@@ -46,30 +47,19 @@ install brew-cask
 # .dmg
 #==================
 cask install alfred
+cask install dash
 # caskでインストールしたアプリも検索対象に
 cask alfred link
-cask install adium
-cask install appcleaner
 cask install bettertouchtool
-cask install cheatsheet
-cask install cornerstone
 cask install flux
-cask install github
-cask install google-chrome
 cask install google-japanese-ime
-cask install google-drive
 # cask install intellij-idea-community
 cask install iterm2
-cask install keyremap4macbook
-cask install kobito
-cask install mplayerx
-cask install opera-mail
-cask install simple-comic
 cask install skitch
 cask install sourcetree
-cask install sublime-text
 cask install sequel-pro
 cask install the-unarchiver
+cask install vivaldi
 cask install xtrafinder
 
 # Remove outdated versions
