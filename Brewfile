@@ -60,6 +60,7 @@ cask install sourcetree
 cask install sequel-pro
 cask install the-unarchiver
 cask install vivaldi
+cask install visual-studio-code
 cask install xtrafinder
 
 # Remove outdated versions
