@@ -54,6 +54,7 @@ cask install bettertouchtool
 cask install flux
 cask install google-japanese-ime
 # cask install intellij-idea-community
+cask install kindle
 cask install iterm2
 cask install skitch
 cask install sourcetree
