@@ -1,68 +1,69 @@
 # Update Homebrew
-update
+#update
 
 # Update already-installed formula
 # upgrade
 
 # Add Repository
-tap homebrew/versions || true
-tap phinze/homebrew-cask || true
-tap homebrew/binary || true
+#tap homebrew/versions || true
+#tap phinze/homebrew-cask || true
+#tap homebrew/binary || true
 
 #==================
 # Packages
 #==================
-install zsh
-install tmux
-install vim
-install git
+brew 'zsh'
+brew 'tmux'
+brew 'vim'
+brew 'git'
 # https://github.com/defunkt/gist/
-install gist 
+brew 'gist'
 # https://github.com/simonwhitaker/gibo
-install gibo
+brew 'gibo'
 # https://github.com/github/hub
-install hub
-install tig
-install tree
-install wget
-install curl
+brew 'hub'
+brew 'tig'
+brew 'tree'
+brew 'wget'
+brew 'curl'
 # https://github.com/stedolan/jq
-install jq
-install scala
-install gradle
-install sbt
-install atool
-install z
-install fontforge
-install peco
+brew 'jq'
+brew 'scala'
+brew 'gradle'
+brew 'sbt'
+brew 'atool'
+brew 'z'
+brew 'fontforge'
+brew 'peco'
 
 # powerline用フォントを作成する
-tap sanemat/font
-install --powerline --vim-powerline ricty
+tap 'sanemat/font'
+brew '--powerline --vim-powerline ricty'
+brew '--with-powerline ricty'
 
 # for brew-cask
-install brew-cask
+brew 'brew-cask'
 
 #==================
 # .dmg
 #==================
-cask install alfred
-cask install dash
-# caskでインストールしたアプリも検索対象に
-cask alfred link
-cask install bettertouchtool
-cask install flux
-cask install google-japanese-ime
-# cask install intellij-idea-community
-cask install kindle
-cask install iterm2
-cask install skitch
-cask install sourcetree
-cask install sequel-pro
-cask install the-unarchiver
-cask install vivaldi
-cask install visual-studio-code
-cask install xtrafinder
+cask 'alfred'
+cask 'dash'
+# cask 'でインストールしたアプリも検索対象に
+cask 'alfred link'
+cask 'bettertouchtool'
+cask 'flux'
+cask 'google-japanese-ime'
+# cask ' intellij-idea-community
+cask 'kindle'
+cask 'iterm2'
+cask 'skitch'
+cask 'sourcetree'
+cask 'sequel-pro'
+cask 'the-unarchiver'
+cask 'vivaldi'
+cask 'visual-studio-code'
+cask 'xtrafinder'
 
 # Remove outdated versions
-cleanup
+#cleanup
