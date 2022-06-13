@@ -1,0 +1,8 @@
+add_newline = true
+
+[character]
+#symbol = "🌱"
+
+[directory]
+truncation_length = 100
+truncate_to_repo = false

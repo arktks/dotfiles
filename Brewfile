@@ -1,11 +1,11 @@
 # Update Homebrew
-#update
+update
 
 # Update already-installed formula
 # upgrade
 
 # Add Repository
-#tap homebrew/versions || true
+tap homebrew/versions || true
 #tap phinze/homebrew-cask || true
 #tap homebrew/binary || true
 
@@ -13,6 +13,7 @@
 # Packages
 #==================
 brew 'zsh'
+brew 'zsh-autosuggestions'
 brew 'tmux'
 brew 'vim'
 brew 'git'
@@ -40,6 +41,10 @@ brew 'peco'
 tap 'sanemat/font'
 brew '--powerline --vim-powerline ricty'
 brew '--with-powerline ricty'
+
+# hakugen
+brew 'font-hackgen'
+brew 'font-hackgen-nerd'
 
 # for brew-cask
 brew 'brew-cask'

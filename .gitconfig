@@ -1,10 +1,11 @@
 [user]
-  name = arktks
-  email = go.go.monster65@gmail.com
+	name = arktks
+	email = go.go.monster65@gmail.com
 
 [core]
   editor = vim
   quotepath = false
+	excludesfile = /Users/arikawa/.gitignore_global
 
 [color]
   ui = auto
@@ -54,7 +55,15 @@
   rebase = true
 
 [push]
-  default = simple
+  default = current
 
 [http]
   sslverify = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/arikawa/.stCommitMsg

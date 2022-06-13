@@ -59,6 +59,9 @@ bindkey '^S' history-incremental-pattern-search-forward
 
 ## Alias
 
+# ls
+alias ll="ls -la"
+
 # du/df
 alias du="du -h"
 alias df="df -h"
@@ -85,7 +88,20 @@ alias ex='extract'
 alias mysql="mysql --auto-rehash --pager='less -S -n -i -F -X'"
 
 # z
-if which brew > /dev/null; then
-    _Z_CMD=j
-    source $(brew --prefix)/etc/profile.d/z.sh
-fi
+#if which brew > /dev/null; then
+#    _Z_CMD=j
+#    source $(brew --prefix)/etc/profile.d/z.sh
+#fi
+#
+# zplug
+export ZPLUG_HOME=/usr/local/opt/zplug
+source $ZPLUG_HOME/init.zsh
+zplug "b4b4r07/enhancd", use:init.sh
+zplug load
+export ENHANCD_DISABLE_DOT=1
+export ENHANCD_HOOK_AFTER_CD=ll
+export ENHANCD_FILTER=peco
+
+# タブのタイトルをディレクトリ名に変更
+function chpwd() { echo -ne "\033]0;$(pwd | rev | awk -F \/ '{print $1}'| rev)\007"}
+
