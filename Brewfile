@@ -54,6 +54,8 @@ brew 'brew-cask'
 #==================
 cask 'alfred'
 # cask 'dash'
+cask 'cmd-eikana'
+cask 'docker'
 # cask 'でインストールしたアプリも検索対象に
 cask 'alfred link'
 cask 'bettertouchtool'
