@@ -60,6 +60,7 @@ cask 'bettertouchtool'
 # cask 'flux'
 cask 'google-japanese-ime'
 # cask ' intellij-idea-community
+cask 'karabiner-elements'
 cask 'kindle'
 cask 'iterm2'
 cask 'quiver'
