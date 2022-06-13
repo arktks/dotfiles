@@ -53,20 +53,21 @@ brew 'brew-cask'
 # .dmg
 #==================
 cask 'alfred'
-cask 'dash'
+# cask 'dash'
 # cask 'でインストールしたアプリも検索対象に
 cask 'alfred link'
 cask 'bettertouchtool'
-cask 'flux'
+# cask 'flux'
 cask 'google-japanese-ime'
 # cask ' intellij-idea-community
 cask 'kindle'
 cask 'iterm2'
+cask 'quiver'
 cask 'skitch'
 cask 'sourcetree'
 cask 'sequel-pro'
 cask 'the-unarchiver'
-cask 'vivaldi'
+# cask 'vivaldi'
 cask 'visual-studio-code'
 cask 'xtrafinder'
 
