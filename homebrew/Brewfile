@@ -1,13 +1,12 @@
 # Update Homebrew
-update
+#update
 
 # Update already-installed formula
 # upgrade
 
 # Add Repository
-tap homebrew/versions || true
-#tap phinze/homebrew-cask || true
-#tap homebrew/binary || true
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 
 #==================
 # Packages
@@ -36,6 +35,8 @@ brew 'atool'
 brew 'z'
 brew 'fontforge'
 brew 'peco'
+brew 'zplug'
+brew 'starship'
 
 # powerline用フォントを作成する
 tap 'sanemat/font'
@@ -46,18 +47,13 @@ brew '--with-powerline ricty'
 brew 'font-hackgen'
 brew 'font-hackgen-nerd'
 
-# for brew-cask
-brew 'brew-cask'
-
 #==================
 # .dmg
 #==================
 cask 'alfred'
-# cask 'dash'
+cask 'appcleaner'
 cask 'cmd-eikana'
 cask 'docker'
-# cask 'でインストールしたアプリも検索対象に
-cask 'alfred link'
 cask 'bettertouchtool'
 # cask 'flux'
 cask 'google-japanese-ime'
@@ -70,9 +66,7 @@ cask 'skitch'
 cask 'sourcetree'
 cask 'sequel-pro'
 cask 'the-unarchiver'
-# cask 'vivaldi'
 cask 'visual-studio-code'
-cask 'xtrafinder'
 
 # Remove outdated versions
 #cleanup
