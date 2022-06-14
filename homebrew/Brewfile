@@ -1,32 +1,27 @@
-# Update Homebrew
-#update
-
-# Update already-installed formula
-# upgrade
 
 # Add Repository
+tap "homebrew/bundle"
+tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
+cask_args appdir: "/Applications"
+
 #==================
-# Packages
+# brew
 #==================
 brew 'zsh'
 brew 'zsh-autosuggestions'
 brew 'tmux'
 brew 'vim'
 brew 'git'
-# https://github.com/defunkt/gist/
 brew 'gist'
-# https://github.com/simonwhitaker/gibo
 brew 'gibo'
-# https://github.com/github/hub
 brew 'hub'
 brew 'tig'
 brew 'tree'
 brew 'wget'
 brew 'curl'
-# https://github.com/stedolan/jq
 brew 'jq'
 brew 'scala'
 brew 'gradle'
@@ -37,27 +32,18 @@ brew 'fontforge'
 brew 'peco'
 brew 'zplug'
 brew 'starship'
-
-# powerline用フォントを作成する
-tap 'sanemat/font'
-brew '--powerline --vim-powerline ricty'
-brew '--with-powerline ricty'
-
-# hakugen
 brew 'font-hackgen'
 brew 'font-hackgen-nerd'
 
 #==================
-# .dmg
+# cask
 #==================
 cask 'alfred'
 cask 'appcleaner'
 cask 'cmd-eikana'
 cask 'docker'
 cask 'bettertouchtool'
-# cask 'flux'
 cask 'google-japanese-ime'
-# cask ' intellij-idea-community
 cask 'karabiner-elements'
 cask 'kindle'
 cask 'iterm2'
@@ -67,6 +53,3 @@ cask 'sourcetree'
 cask 'sequel-pro'
 cask 'the-unarchiver'
 cask 'visual-studio-code'
-
-# Remove outdated versions
-#cleanup
