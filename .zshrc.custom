@@ -94,7 +94,7 @@ alias mysql="mysql --auto-rehash --pager='less -S -n -i -F -X'"
 #fi
 #
 # zplug
-export ZPLUG_HOME=/usr/local/opt/zplug
+export ZPLUG_HOME=/opt/homebrew/opt/zplug
 source $ZPLUG_HOME/init.zsh
 zplug "b4b4r07/enhancd", use:init.sh
 zplug load
