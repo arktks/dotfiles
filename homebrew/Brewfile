@@ -35,6 +35,8 @@ brew 'starship'
 brew 'font-hackgen'
 brew 'font-hackgen-nerd'
 brew 'diff-so-fancy' 
+brew 'terraform'
+brew 'tfenv'
 
 #==================
 # cask
