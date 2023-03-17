@@ -97,11 +97,17 @@ alias mysql="mysql --auto-rehash --pager='less -S -n -i -F -X'"
 export ZPLUG_HOME=/opt/homebrew/opt/zplug
 source $ZPLUG_HOME/init.zsh
 zplug "b4b4r07/enhancd", use:init.sh
-zplug load
 export ENHANCD_DISABLE_DOT=1
 export ENHANCD_HOOK_AFTER_CD=ll
 export ENHANCD_FILTER=peco
 
+if ! zplug check; then
+    zplug install
+fi
+zplug load
+
 # タブのタイトルをディレクトリ名に変更
 function chpwd() { echo -ne "\033]0;$(pwd | rev | awk -F \/ '{print $1}'| rev)\007"}
 
+# nodenv
+eval "$(nodenv init - --no-rehash)"
